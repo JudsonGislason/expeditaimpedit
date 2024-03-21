@@ -1,0 +1,61 @@
+{
+  "name": "expeditaimpedit",
+  "version": "1.0.0",
+  "description": "Port of TweetNaCl cryptographic library to TypeScript (and ES6)",
+  "main": "nacl.js",
+  "module": "es/nacl.js",
+  "typings": "nacl.d.ts",
+  "browser": {
+    "./server/convert.js": "./client/convert.js",
+    "./es/server/convert.js": "./es/client/convert.js",
+    "./server/random.js": "./client/random.js",
+    "./es/server/random.js": "./es/client/random.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JudsonGislason/expeditaimpedit.git"
+  },
+  "keywords": [
+    "fuga",
+    "cryptography",
+    "non",
+    "dolores",
+    "encrypt",
+    "hash",
+    "key",
+    "nacl",
+    "tweetnacl",
+    "poly1305",
+    "public",
+    "laudantium",
+    "signatures",
+    "sign",
+    "delectus",
+    "box",
+    "secretbox",
+    "sealedbox",
+    "ad",
+    "sha2",
+    "occaecati",
+    "sha256",
+    "nulla",
+    "blake2s",
+    "blake2b"
+  ],
+  "author": "ErnaLind",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/JudsonGislason/expeditaimpedit.git",
+  "devDependencies": {
+    "@types/mocha": "^5",
+    "@types/node": "^8",
+    "browserify": "^16",
+    "mocha": "^5",
+    "testem": "^2",
+    "ts-node": "^7",
+    "tsify": "^4",
+    "typescript": "^3"
+  },
+  "dependencies": {
+    "tslib": "^1"
+  }
+}
